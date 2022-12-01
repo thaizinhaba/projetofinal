@@ -1,0 +1,103 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'pacifico', cursive;
+    
+    color: rgb(131, 200, 247);
+    font-size: 20px;
+    line-height: 1.5;
+  }
+ 
+ #principal{
+  background-color: hsla(50, 33%, 25%, .75);
+    text-decoration: black
+    
+  }
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px; ;
+}
+
+
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .main-nav .logo {
+    width: 110px;
+  
+  }
+  
+  .main-nav ul {
+    display: flex;
+  }
+  
+  .main-nav ul li {
+    padding: 0 10px;
+  }
+  
+  .main-nav ul li a {
+    padding-bottom: 2px;
+    text-decoration: none; color: black;
+    
+  }
+  
+  .main-nav ul li a:hover {
+    border-bottom: 3px solid blue;
+    text-decoration: none; color: aliceblue;
+  }
+  
+  .main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+   
+  }
+
+  a {
+    color:rgb(131, 200, 247);
+    text-decoration: honeydew;
+  }
+
+container{
+    padding: 0px 50px;
+}
+
+a:hover{
+    color: rgb(48, 5, 91);
+}
+
+#videoleo{
+  margin: 30px 0 30px 0;
+  position: relative;
+  left: 25%;
+}
+.texto{
+  margin: 20px;
+  justify-content: center;
+}
+
+.footer .logo {
+  width:200px;
+  align-items: center;
+
+}
+.footer .rpvlogo {
+  width:100px;
+  align-items: stretch;
+
+}

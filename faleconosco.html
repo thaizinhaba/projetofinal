@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>faleconosco</title>
+</head>
+<body>
+    <header>
+      <nav class="main-nav">
+        <img src="imagem\Leopoldina-logo.jpg" alt="Leopoldina" class="logo">
+  
+        <ul class="main-menu">
+          <li><a href="index.html">HOME </a></li>
+          <li><a href="sobre.html">Sobre Leopoldina</a></li>          
+          <li><a href="http://www.netgov.com.br/spm-net-php/index.php?banco=pmleopoldina" target="_blank">CND Municipal</a></li>
+          <li><a href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp" target="_blank">CPF </a></li>
+          <li><a href="https://wwws.pc.mg.gov.br/atestado/inicial.do;jsessionid=B30A8DBC42016CEC574B20D97C1223E9?evento=cookie" target="_blank">Antecedentes Criminais </a></li>
+          <li><a href="https://rupe.tjmg.jus.br/rupe/justica/publico/certidoes/criarSolicitacaoCertidao.rupe?solicitacaoPublica=true" target="_blank">Certidão criminal TJMG </a></li>
+          <li><a href="https://cndt-certidao.tst.jus.br/inicio.faces;jsessionid=Z39Y7JswB5ce5lY3al7yBxZbNJMxbdupf_D6Ut8A.cndt-certidao-39-gw6bw" target="_blank">CND Trabalhista  </a></li>
+          <li><a href="https://transparencia.leopoldina.mg.gov.br" target="_blank">Portal da Transparência </a></li>
+          <li><a href="https://nfe.leopoldina.mg.gov.br/" target="_blank">NFE - Nota Fiscal Eletrônica </a></li>
+         
+        </ul>
+  
+      </nav>
+            
+    <div class="center">
+        <h2> Queremos te ouvir </h2>
+    </div>
+    
+    </header>
+
+
+    <div id="form-main">
+        <div id="form-div">
+          <form class="form" id="form1">
+            
+            <p class="name">
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nome" id="name" />
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+            
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Deixe aqui seu comentario"></textarea>
+            </p>
+            
+            
+            <div class="submit">
+              <input type="button" value="Enviar" onclick="funcao1()" id="button-blue"/>
+             
+              <div class="ease"></div>
+            
+            </div>
+            <script>
+              function funcao1()
+              {
+              alert("Mensagem enviada com sucesso!");
+              }
+              </script>
+              </head>
+          
+              
+           
+          </form>
+        </div>
+
+        
+
+        
+    
+</body>
+</html>
